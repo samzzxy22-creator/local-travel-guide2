@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Travel Guide - หน้าแรก</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Prompt', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-emerald-600 flex items-center gap-2">
+                <i class="fa-solid fa-compass"></i> ThaiLocalTrip
+            </a>
+            <div class="space-x-6 font-medium">
+                <a href="index.html" class="text-emerald-600 font-semibold">หน้าแรก</a>
+                <a href="listing.html" class="text-gray-600 hover:text-emerald-600">สถานที่ท่องเที่ยว</a>
+                <a href="contact.html" class="text-gray-600 hover:text-emerald-600">ติดต่อเรา</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-emerald-900 text-white py-28 px-4 text-center bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1600&q=80');">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">ค้น, เที่ยว, สัมผัสวิถีไทย</h1>
+            <p class="text-lg text-gray-200 mb-8">เปิดประสบการณ์ท่องเที่ยวเมืองไทยในมุมมองใหม่ ท่องเที่ยวชุมชนธรรมชาติและวัฒนธรรม</p>
+            <a href="listing.html" class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-8 py-3 rounded-full shadow-lg transition duration-300">
+                <i class="fa-solid fa-map-location-dot mr-2"></i> สำรวจสถานที่ท่องเที่ยว
+            </a>
+        </div>
+    </header>
+
+    <!-- Highlights Section -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800">ไฮไลต์สถานที่ห้ามพลาด</h2>
+            <p class="text-gray-600 mt-2">สถานที่ยอดฮิตที่เต็มไปด้วยเสน่ห์อันเป็นเอกลักษณ์</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="https://images.unsplash.com/photo-1598935898830-5465d625b6a7?auto=format&fit=crop&w=800&q=80" alt="Chiang Mai" class="h-56 w-full object-cover">
+                <div class="p-6">
+                    <span class="text-xs bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full font-medium">เชียงใหม่</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2">ดอยอินทนนท์</h3>
+                    <p class="text-gray-600 text-sm mb-4">สัมผัสอากาศหนาวเย็น ชมธรรมชาติป่าไม้สมบูรณ์ และยอดเขาที่สูงที่สุดในประเทศไทย</p>
+                    <a href="listing.html" class="text-emerald-600 font-semibold hover:underline flex items-center gap-1 text-sm">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=800&q=80" alt="Krabi" class="h-56 w-full object-cover">
+                <div class="p-6">
+                    <span class="text-xs bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full font-medium">กระบี่</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2">อ่าวไร่เลย์</h3>
+                    <p class="text-gray-600 text-sm mb-4">หาดทรายขาวละเอียด น้ำทะเลใสสะอาด และหน้าผาหินปูนอันโด่งดังระดับโลก</p>
+                    <a href="listing.html" class="text-emerald-600 font-semibold hover:underline flex items-center gap-1 text-sm">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <img src="https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=800&q=80" alt="Bangkok" class="h-56 w-full object-cover">
+                <div class="p-6">
+                    <span class="text-xs bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full font-medium">กรุงเทพฯ</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2">วัดพระแก้ว</h3>
+                    <p class="text-gray-600 text-sm mb-4">ศูนย์รวมจิตใจและสถาปัตยกรรมไทยอันวิจิตรงดงามใจกลางเมืองหลวง</p>
+                    <a href="listing.html" class="text-emerald-600 font-semibold hover:underline flex items-center gap-1 text-sm">ดูรายละเอียด <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p class="text-sm text-gray-400">&copy; 2026 ThaiLocalTrip. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
